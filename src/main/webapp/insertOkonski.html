@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+header {
+    background-color:rgb(128, 128, 255);
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:rgb(128, 128, 255);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1><span title="Shopping is fun! &hearts;"> Add items to your shopping list! </span></h1>
+</header>
+
+<nav>
+<a href="/webproject-T3-1006-Okonski/searchOkonski.html">Search Items</a> <br>
+</nav>
+
+
+<section>
+	<h1>Insert Item Information Below:</h1>
+	
+	<form action="InsertOkonski" method="POST">
+	
+		<span title="What is the name of your item?">Item :</span><input type="text" name="item"> <br />
+		<span title="Which store do you want to buy this item from?">Store:</span><input type="text" name="store"> <br />
+		
+		<span title="&hearts;"><input type="submit" value="Add it!" /></span>
+	</form>
+	
+</section>
+
+<footer>
+<p>Copyright: Rachel Okonski </p>
+</footer>
+</body>
+</html>
